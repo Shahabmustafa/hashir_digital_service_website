@@ -156,13 +156,25 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    height: 500;
+    height: 300px;
     width: 100%;
+}
+
+.contct_data{
+    display: flex;
+    justify-content: center;
+}
+
+.link_website{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
 }
 
 .link_website .fa-facebook{
     color: #4267B2;
     font-size: 50px;
+
 }
 
 .link_website .fa-youtube{
@@ -170,6 +182,18 @@
     font-size: 50px;
 }
 
-.contact_form{
-    
+.link_website .fa-whatsapp{
+    color: greenyellow;
+    font-size: 50px;
 }
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
